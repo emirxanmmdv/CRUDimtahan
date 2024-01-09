@@ -1,0 +1,28 @@
+
+    .smokingCards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 30px;
+      .card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        width: 400px;
+        height: 400px;
+        align-items: center;
+        .cardName {
+          color: red;
+          align-items: center;
+        }
+        .cardImg {
+          width: 130px;
+          height: 130px;
+          padding-bottom: 30px;
+        }
+        .cardPrice {
+          color: green;
+        }
+      }
+      
+    }
+
